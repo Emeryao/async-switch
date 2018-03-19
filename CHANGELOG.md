@@ -1,7 +1,9 @@
-# Change Log
-All notable changes to the "async-switch" extension will be documented in this file.
+# CHANGELOG
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.2] - 2018.03.19
+* Add an icon
+* Add changelog content
+* Add a shortcut key
 
-## [Unreleased]
-- Initial release
+## [0.0.1] - 2018.03.18
+* Initial release

@@ -2,8 +2,9 @@
     "name": "async-switch",
     "displayName": "Async Switch",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Emeryao",
+    "icon": "assets/icon.png",
     "engines": {
         "vscode": "^1.17.0"
     },
@@ -23,10 +24,21 @@
     ],
     "main": "./out/extension",
     "contributes": {
-        "commands": [{
-            "command": "async-switch.toggle",
-            "title": "Toggle Async"
-        }]
+        "commands": [
+            {
+                "command": "async-switch.toggle",
+                "title": "Toggle Async",
+                "icon": "assets/icon.png"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "async-switch.toggle",
+                "key": "ctrl+t ctrl+a",
+                "mac": "cmd+t cmd+a",
+                "when": "editorTextFocus && !editorReadonly"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
