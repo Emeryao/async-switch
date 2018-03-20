@@ -11,7 +11,8 @@
 
 ## Snippets
 * `afun`
-    > snippets for a new async function
+    > snippets for a new async function  
+
     ```typescript
     async function foo(): Promise<void> {
         return new Promise<void>((resolve, reject) => {
@@ -20,7 +21,8 @@
     }
     ```
 * `amethod`
-    > snippets for a new async method
+    > snippets for a new async method  
+
     ```typescript
     public async foo(): Promise<void> {
         return new Promise<void>((resolve, reject) => {

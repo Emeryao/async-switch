@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [0.0.3] - 2018.03.20
+## [0.5.0] - 2018.03.20
 * Add snippets for async method/function
 * Improve doc
 

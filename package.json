@@ -2,7 +2,7 @@
     "name": "async-switch",
     "displayName": "Async Switch",
     "description": "An easy way to switch a method/function async or not",
-    "version": "0.0.3",
+    "version": "0.5.0",
     "publisher": "Emeryao",
     "icon": "assets/icon.png",
     "engines": {
