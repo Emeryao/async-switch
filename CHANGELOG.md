@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [0.0.3] - 2018.03.20
+* Add snippets for async method/function
+* Improve doc
+
 ## [0.0.2] - 2018.03.19
 * Add an icon
 * Add changelog content

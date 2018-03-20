@@ -1,0 +1,24 @@
+{
+    "Async_Function": {
+        "prefix": "afun",
+        "body": [
+            "async function ${1:foo}(): Promise<${2:void}> {",
+            "\treturn new Promise<${2:void}>((resolve, reject) => {",
+            "\t\t$0",
+            "\t});",
+            "}"
+        ],
+        "description": "an async function"
+    },
+    "Async_Method": {
+        "prefix": "amethod",
+        "body": [
+            "${1|public,private|} async ${2:foo}(): Promise<${3:void}> {",
+            "\treturn new Promise<${3:void}>((resolve, reject) => {",
+            "\t\t$0",
+            "\t});",
+            "}"
+        ],
+        "description": "an async method"
+    }
+}

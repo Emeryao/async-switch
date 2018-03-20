@@ -1,19 +1,19 @@
 {
     "name": "async-switch",
     "displayName": "Async Switch",
-    "description": "",
-    "version": "0.0.2",
+    "description": "An easy way to switch a method/function async or not",
+    "version": "0.0.3",
     "publisher": "Emeryao",
     "icon": "assets/icon.png",
     "engines": {
-        "vscode": "^1.17.0"
+        "vscode": "^1.8.0"
     },
     "keywords": [
         "async",
-        "switch",
-        "typescript",
+        "async switch",
         "async-switch",
-        "async switch"
+        "switch",
+        "typescript"
     ],
     "categories": [
         "Snippets",
@@ -24,21 +24,21 @@
     ],
     "main": "./out/extension",
     "contributes": {
-        "commands": [
-            {
-                "command": "async-switch.toggle",
-                "title": "Toggle Async",
-                "icon": "assets/icon.png"
-            }
-        ],
-        "keybindings": [
-            {
-                "command": "async-switch.toggle",
-                "key": "ctrl+t ctrl+a",
-                "mac": "cmd+t cmd+a",
-                "when": "editorTextFocus && !editorReadonly"
-            }
-        ]
+        "commands": [{
+            "command": "async-switch.toggle",
+            "title": "Toggle Async",
+            "icon": "assets/icon.png"
+        }],
+        "keybindings": [{
+            "command": "async-switch.toggle",
+            "key": "ctrl+t ctrl+a",
+            "mac": "cmd+t cmd+a",
+            "when": "editorTextFocus && !editorReadonly"
+        }],
+        "snippets": [{
+            "language": "typescript",
+            "path": "./snippets/typescript.json"
+        }]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
